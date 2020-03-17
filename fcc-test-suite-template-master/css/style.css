@@ -51,9 +51,15 @@ nav{
 }
 @media only screen and (max-width: 1000px) {
     body {
-      background-color: rgb(140, 141, 202);
+      background-color: blue;
+      class
     }
 }
+@media only screen and (max-width: 768px) {
+    [class*="Part2"] {
+      width: 100%;
+    }
+  }
 .nav-link{
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
